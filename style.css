@@ -396,8 +396,6 @@ margin: auto;
   height: 50%;
   border-radius: 8px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-  justify-content: center;
-  align-items: center;
 }
 
 /* Typography */
@@ -978,7 +976,7 @@ margin: auto;
 
 /* code for small screen sizes */
 
- @media (max-width: 768px) {
+ @media screen and  (max-width: 768px) {
  
   .hamburger {
     display: block;
@@ -1009,19 +1007,8 @@ nav ul li {
 
    .carousel-img{
     height: 70vh;
-    
   }
-  .carousel h3{
-    margin-left: -20%;
-  }
-  .carousel p{
-    margin-left: -24.5%;
-    
-  }
-  .classes-img{
-    margin-right: 120px;
-  }
-   #school-classes{ display: flex; width: 100%; transition: all 0.5s;}
+   #school-classes{ display:flex; width: 100%; transition: all 0.5s;}
    .kindergaten{ width: 33.33%;}
    .primary{ width: 33.33%;}
    .secondary{ width: 33.33%;}
